@@ -1,5 +1,5 @@
 # CyberChatbot
-A Java-based AI chatbot with cybersecurity features.
+A Java-based AI securechat with cybersecurity features.
 
 ## Features
 - GUI using Swing
