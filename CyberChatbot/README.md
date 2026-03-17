@@ -1,4 +1,4 @@
-# CyberChatbot
+# CyberChat
 A Java-based AI securechat with cybersecurity features.
 
 ## Features
@@ -9,7 +9,7 @@ A Java-based AI securechat with cybersecurity features.
 - Build with Maven
 
 ## Project Structure
-CyberChatbot/
+CyberChat/
 ├── src/
 │   ├── main/
 │   │   ├── java/
