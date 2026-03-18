@@ -10,22 +10,33 @@ A Java-based AI securechat with cybersecurity features.
 
 ## Project Structure
 CyberChat/
+│
+├── Main.java                 # Entry point
+├── pom.xml                  # Maven configuration
+├── .gitignore
+│
 ├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── com/
-│   │   │       └── yourname/
-│   │   │           └── chatbot/
-│   │   │               ├── model/        # User, Message classes
-│   │   │               ├── service/      # Chatbot logic, Security
-│   │   │               ├── db/           # Database handling
-│   │   │               ├── ui/           # Swing GUI
-│   │   │               └── Main.java     # Entry point
-│   │   └── resources/
-│   └── test/
-│       └── java/                        # Unit tests
-├── pom.xml
-└── .gitignore
+│   ├── model/
+│   │   ├── User.java
+│   │   └── Message.java
+│   │
+│   ├── service/
+│   │   ├── ChatbotService.java
+│   │   └── SecurityService.java
+│   │
+│   ├── db/
+│   │   ├── DatabaseConnection.java
+│   │   └── MessageDAO.java
+│   │
+│   ├── ui/
+│   │   └── ChatUI.java
+│   │
+│   ├── utils/
+│   │   └── Logger.java
+│
+├── resources/               # Config files (DB config, etc.)
+├── logs/                    # Chat logs / system logs
+└── test/                    # Unit tests
 
 ## Setup Instructions
 1. **Clone the Repository**:
