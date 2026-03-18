@@ -11,8 +11,8 @@ A Java-based AI securechat with cybersecurity features.
 ## Project Structure
 CyberChat/
 │
-├── Main.java                 # Entry point
-├── pom.xml                  # Maven configuration
+├── Main.java                 
+├── pom.xml                 
 ├── .gitignore
 │
 ├── src/
@@ -34,9 +34,9 @@ CyberChat/
 │   ├── utils/
 │   │   └── Logger.java
 │
-├── resources/               # Config files (DB config, etc.)
-├── logs/                    # Chat logs / system logs
-└── test/                    # Unit tests
+├── resources/               
+├── logs/                   
+└── test/                    
 
 ## Setup Instructions
 1. **Clone the Repository**:
