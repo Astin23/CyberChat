@@ -8,7 +8,6 @@ A Java-based AI securechat with cybersecurity features.
 - Unit and integration testing with JUnit
 - Build with Maven
 
-## Project Structure
 CyberChat/
 ├── src/
 │   ├── main/
@@ -16,14 +15,14 @@ CyberChat/
 │   │   │   ├── com/
 │   │   │   │   ├── yourname/
 │   │   │   │   │   ├── chatbot/
-│   │   │   │   │   │   ├── model/       (User, Message classes)
-│   │   │   │   │   │   ├── service/      (Chatbot logic, Security)
-│   │   │   │   │   │   ├── db/          (Database handling)
-│   │   │   │   │   │   ├── ui/          (Swing GUI)
-│   │   │   │   │   │   └── Main.java    (Entry point)
+│   │   │   │   │   │   ├── model/       # User, Message classes
+│   │   │   │   │   │   ├── service/     # Chatbot logic, Security
+│   │   │   │   │   │   ├── db/          # Database handling
+│   │   │   │   │   │   ├── ui/          # Swing GUI
+│   │   │   │   │   │   └── Main.java    # Entry point
 │   │   └── resources/
 │   └── test/
-│       └── java/ (Tests)
+│       └── java/                       # Unit tests
 ├── pom.xml
 └── .gitignore
 
@@ -59,5 +58,10 @@ CyberChat/
 ## UML Diagram
 See `uml_diagram.png` for the class diagram of the project.
 
-## License
-MIT License
+##  License
+
+This project is for educational and research purposes.
+
+---
+
+If you found this project useful, consider giving it a star!
