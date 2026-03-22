@@ -9,6 +9,8 @@ A Java-based AI securechat with cybersecurity features.
 - Build with Maven
 
 ## Project Structure
+
+```
 CyberChat/
 │
 ├── Main.java                 
@@ -36,7 +38,9 @@ CyberChat/
 │
 ├── resources/               
 ├── logs/                   
-└── test/                    
+└── test/   
+```
+
 
 ## Setup Instructions
 1. **Clone the Repository**:
