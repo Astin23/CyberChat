@@ -44,7 +44,7 @@ CyberChat/
 
 ## Setup Instructions
 1. **Clone the Repository**:
-   git clone https://github.com/Astin23/CyberChatbot.git cd CyberChatbot
+   git clone https://github.com/Astin23/CyberChat.git cd CyberChat
 2. **Install Dependencies**:
 - Ensure Maven is installed.
 - Run:
