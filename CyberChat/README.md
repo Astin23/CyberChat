@@ -78,6 +78,5 @@ See `uml_diagram.png` for the class diagram of the project.
 
 This project is for educational and research purposes.
 
----
 
 If you found this project useful, consider giving it a star!
